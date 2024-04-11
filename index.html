@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="As melhores séries e filmes de todos os tempos.">
+    <title>Seriflix|O melhor site de séries da internet</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div id="home" class="titulo text-center">
+        <img src="./images/1.png" alt="logo">
+    </div>
+    <nav class="navbar navbar-expand-lg cor1">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#home">Home</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link cor1" href="#series">Séries<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cor1" href="#filmes">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cor1" href="#mais">Saiba mais</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/et.jpg" alt="First slide" >
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/wp8256223.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/lanterna.jpg" alt="Third slide"">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <div class="container">
+        <h2 class="cor1" id="fimes">Séries</h2>
+    </div>
+    <div class="container-img">
+        <div class="row">
+            <div class="col">
+                <img src="./images/riverdale.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/agentsOfShield.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/cidadeInvisivel.webp" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/sintonia.jpg" class="img-fluid" alt="Responsive image">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Saiba mais...</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="cor1" id="series">Filmes</h2>
+    </div>
+    <div class="container-img">
+        <div class="row">
+            <div class="col">
+                <img src="./images/incriveis.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/liga.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/doctor.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/the avengers.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="cor1" id="mais">Últimos Acessos</h2>
+    </div>
+    <div class="container-img">
+        <div class="row">
+            <div class="col">
+                <img src="./images/anneWithAnE.jpg" class="img-fluid" alt="Responsive image" height="100%">
+            </div>
+            <div class="col">
+                <img src="./images/demolidor.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/Wandinha.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col">
+                <img src="./images/theLastOfUs.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+
+        </div>
+    </div>
+    
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title cor1" id="exampleModalLongTitle">Sintonia</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h6 class="cor1">Sinopse e Info</h6>
+          <p class="cor1">Sintonia, série brasileira original da Netflix, traz as histórias de Doni (Christian Malheiros), Nando (MC Jottapê) e Rita (Bruna Mascarenhas), todos moradores da mesma favela em São Paulo. Crescendo juntos pelas ruas da comunidade, eles descobriram aos poucos o mundo do tráfico de drogas, da religião e também da música. No entanto, as experiências da infância os levaram a trilhar caminhos bem diferentes, e agora esse trio sabe que quem pode salvá-los dos problemas com os quais se envolveram são eles mesmos. A série apresenta a dinâmica das organizações criminosas nas periferias dos centros urbanos. E, além dos problemas sociais referentes à favela, a trama também traz um olhar intimista sobre os jovens músicos que ascendem no funk e conquistam a fama.</p>
+        <p class="cor1">4 Temporadas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer id="mais">
+        <p>&copy;2023 - Todos os direitos reservados</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

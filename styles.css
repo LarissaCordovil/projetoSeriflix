@@ -1,0 +1,64 @@
+*{  
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 15px;
+    padding: 15px;
+}
+
+.container h2{
+    text-decoration: underline;
+}
+
+.container-img{
+    padding: 15px;
+    
+}
+.row{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row img{
+    height: 100%;
+}
+
+.titulo{
+    background-image: url(./images/series-capa.jpg);
+}
+
+.titulo img{
+    width: 150px;
+    height: auto;
+}
+
+.cor1{
+    color: white;
+}
+
+.container img{
+    width: 200px;
+    height: 300px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    
+}
+
